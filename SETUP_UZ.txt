@@ -1,0 +1,14 @@
+IFIG AI — tez ulash
+
+1. Papkani GitHub repo'ga to'liq yuklang.
+2. Vercel.com → Add New Project → GitHub repo'ni tanlang.
+3. Settings → Environment Variables:
+   OPENAI_API_KEY = OpenAI API key
+   OPENAI_MODEL = gpt-5.6-luna   (ixtiyoriy)
+4. Deploy bosing.
+5. Sayt ochilgach IFIG Intelligence'ga savol bering.
+
+Muhim:
+- API key'ni index.html ichiga yozmang.
+- GitHub Pages backend ishlatmaydi; AI uchun Vercel serverless route kerak.
+- Frontend /api/chat ga murojaat qiladi.
